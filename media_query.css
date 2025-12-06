@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+    .contents h1{
+        font-size: 3rem;
+    }
+
+    .contents2 h2{
+         font-size: 3rem;
+    }
+
+    .divider2 {
+        width: 100%;
+        height: 10px;
+        background-color: #b20101;
+        border-radius: 10px;
+    }
+
+    .mySwiper2 {
+      height: 5rem;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        border-radius: 1rem;
+        height: 15rem;
+    }
+
+    .inquire_button_mobile{
+        display: none;
+    }
+    
+    .inquire_button_desktop{
+        display: block;
+    }
+
+    .badges img{
+     width: 5rem;
+    }
+
+    .badges{
+        margin: 1rem;
+    }
+    
+
+}
+
+@media(min-width: 768px){
+    .inquire_button_mobile{
+        display: block;
+    }
+    
+    .inquire_button_desktop{
+        display: none;
+    }
+
+}
